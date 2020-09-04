@@ -1,0 +1,480 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 7, 2018, 8:12:27 AM
+    Author     : ADMIN
+*/
+
+#img{
+    width:100%;
+    height:50px;;
+    position: fixed;
+    box-sizing: border-box;
+
+
+
+
+}
+body{
+    display: block;
+    margin: 8px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+
+}
+.content
+{
+    width:1280px;
+    height:100%;
+    margin:0 auto;
+}
+#hr1::after {
+    content: " ";
+    display:block;
+    margin: 0;
+    width:1280px;
+    height:3px;
+    background-color:#000;
+}
+.menu ul{
+    float:left;
+
+    display:inline-block;
+    background: black;
+    opacity:0.8;
+    width:100%;
+    padding-left:0;
+    padding-top:20px;
+    padding-bottom:5px;
+position:relative;
+top:-15px;
+
+
+
+
+}
+.menu ul li{
+    float:left;
+    list-style-type: none;
+    height:auto;
+    margin-left:95px;
+    font-family: tahoma;
+    text-align: center;
+
+
+
+
+
+}
+.menu ul li a{
+
+    text-decoration: none;  
+    letter-spacing: 0.7px;
+    color:whitesmoke;
+    padding:1px 1px;
+    border-radius:5px;
+    transition: color 0.5s,background 0.3s;
+
+}
+
+.menu
+{
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 1280px;
+    height: 120px;;
+    position: fixed;
+    z-index: 99;
+
+
+}
+.menu ul li a:hover
+{
+
+    background:#555;
+
+
+
+}
+hr{
+
+}
+.shoe
+{
+
+}
+
+.menu ul li  >#submenu
+{
+    position:relative;
+    right:45px;
+    display:none;
+    width:10px;
+    line-height: 20px;
+
+
+
+
+}
+.menu ul li:hover>#submenu
+{
+    display: block;
+    float:left;
+
+}
+.slideshow{
+    width:1280px;
+    position: relative;
+    
+}
+.slideshow img{
+    width:100%;
+    height:500px;
+    
+    
+       
+
+}
+#previous img
+{
+     position: absolute;
+    top: 250px;
+ 
+    width: 50px;
+    height: 50px;
+    display:none;
+}
+.slideshow:hover #previous img {
+	display: block;
+	opacity: 0.6;
+}
+.slideshow:hover #next img {
+	display: block;
+	opacity: 0.6;
+}
+#next img
+{
+    position: absolute;
+    top: 250px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    display:none;
+  
+}
+.banner
+{
+    width:1200px;
+    
+}
+.item1
+{
+    width:32%;
+    float:left;
+    margin-left:13px;
+    
+    
+}
+
+.banner .img
+{
+       float:left;
+    margin-left:45px;
+    text-align: center;
+    height:60px;
+    width:32%;
+    float:left;
+}
+.banner .img .title 
+{
+    float:left;
+}
+.title{
+    float:left;
+    text-align: center;
+   
+}
+#box{
+    width:1200px;
+}
+ #box .box1
+  {width:32%;
+      float:left;
+      
+  }
+   #box .box1 .img
+  {
+   
+    
+    transition: color 0.5s,background 0.3s;
+     margin-left:100px;
+  }
+  #box .box1 .title
+  {
+      width:120px;
+      position: absolute;
+      top: 750px;
+      left:220px;
+      z-index: 99;
+      background-color: white;
+      
+      padding:10px;
+      opacity:0.5;
+     
+      
+  }
+   #box .box1 .title1
+  {
+      width:100px;
+      position: absolute;
+      top: 670px;
+      left:600px;
+      z-index: 99;
+      background-color: white;
+      text-align: center;
+        padding:10px;
+        opacity:0.5;
+        
+  }
+   #box .box1 .title2
+  {
+      width:130px;
+      position: absolute;
+      top: 760px;
+      left:988px;
+      z-index: 99;
+      background-color: white;
+      text-align: center;
+        padding:10px;
+        opacity:0.5;
+       
+      
+  }
+   #box .box1
+   {
+       font-weight:bold;
+       font-style:italic;
+       letter-spacing:0.5px;
+       
+   }
+   
+
+  #box .box1 .img :hover {
+  -webkit-filter: blur(5px); 
+  filter: blur(5px);
+  transition: color 0.5s,background 0.3s;
+  opacity:1;
+  
+}
+#box .box1:hover .title
+{
+    width:150px;
+    transition:all 0.5s 0.5s;
+   opacity:0.5;
+   
+   
+}
+#box .box1:hover .title1
+{
+    width:150px;
+    transition:all 0.5s 0.5s;
+     opacity:0.5;
+     
+}
+#box .box1:hover .title2
+{
+    width:150px;
+  transition:all 0.5s 0.5s;
+     opacity:0.5;
+}
+.bottom{
+    width:100%;
+    height:60px;
+    float:left;
+    background-color: #e3e3e3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bottom .container .email{
+    float:left;
+    width:30%;
+    padding-bottom: 100px;
+   
+}
+.bottom .container 
+{
+    width:1280px;
+    
+}
+
+
+.box-email{
+     position: relative;
+    top: -20px;
+    width:100%;
+    text-align: center;
+    left:200px;
+   
+}
+ .form
+
+{
+   position:relative;
+   top:-56px;
+   left:395px;
+    float:left;
+    width:40%;
+    
+    
+     
+}
+.form-email{
+    width:270px;
+    font-size:12px;
+    padding: 6px 12px;
+   height:15px;
+    border: 1px solid #fff;
+}
+.email-icon{
+    float:left;
+    width:25%;
+    position: relative;
+    top:-33px;
+    left:297px;
+}
+.des
+{
+    height:100px;
+    width:40%;
+    float:left;
+    position: relative;
+    top:-55px;
+    left:720px;
+}
+.des img
+{
+    padding-left:5px;
+    width:25px;
+}
+.footer
+{
+    width:100%;
+    background-color:black;
+    float:left;
+  height:250px;
+}
+.footer1
+{
+    width:40%;
+}
+.footer-img
+{
+    display:block;
+  margin-left:120px;
+  
+  margin-top:40px;
+  border-radius:20px;
+  
+}
+#text
+{
+    font-size:14px;
+    font-family: tahoma;
+    color:whitesmoke;
+}
+.contact
+{
+    float:left;
+}
+.contact span
+{
+    font-family: tahoma;
+    font-size:14px;
+    position: relative;
+    top:-8px;
+    margin-left:5px;
+   line-height: 45px;
+    color:whitesmoke;
+}
+.footer2
+{
+    width:20%;
+    float:left;
+    position: relative;
+    left:200px;
+    top:-170px;
+}
+.header
+{
+    
+    color:white;
+    font-family: tahoma;
+    line-height: 25px;
+    font-weight:100;
+}
+.header h3
+{
+    color:whitesmoke;
+    margin-left:40px;
+}
+.footer2 ul li
+{
+    list-style-type: none;
+}
+.footer2 ul li a
+{
+    color:white;
+    text-decoration: none;
+    font-size:15px;
+    
+}
+#a
+{
+    margin-left:100px;
+}
+
+#list{
+			width: 1280px;
+			height: auto;
+			margin-left:auto;
+		}
+		#list div{
+			width: 25%;
+			height: 300px;
+			float: left;
+			margin: 1%;
+			margin-top: 200px;
+			text-align: center;
+			margin-top: 5px;
+                        
+			
+		}
+		#list div p{
+			color: #555;
+			font-size: 15px;
+			font-weight: 500;
+                        font-style:initial;
+			text-decoration: underline;
+		}
+		#list div h2{
+			color: black;
+			font-size: 20px;
+			font-family: tahoma;
+		}
+		#list img{
+			width: 200px;
+			height: 220px;
+		}
+		#list div:hover{
+			border: 1px solid black;
+			box-sizing: border-box;
+                       
+		}
+		#list p{
+			text-align: center;
+			font-size: 1.2em;
+			font-style: italic;
+		}
